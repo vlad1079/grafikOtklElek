@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana, sans-serif;
+}
+
+.tab1 {
+  border: 2px solid #000000;
+  font-size: 21px;
+  text-align: center;
+  width: 100%;
+}
+
+input {
+  outline:none;
+  border: none;
+  width: 100px;
+}
+
+.tab1 tr {
+  position: relative;
+}
+.tab1 td {
+  border: 2px solid #000000;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+.tab1 th {
+  border: 2px solid #000000;
+  width: 30px;
+  height: 30px;
+}
+
+.tab1>tbody>tr>td:nth-of-type(1) {
+  width: 300px;
+}
